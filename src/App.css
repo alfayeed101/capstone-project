@@ -1,19 +1,66 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* targets every element */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  height: 100vh;
+}
+.footer{
+  background-color: #ddd;
+  /* position: absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  height: 200px; */
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App.container {
+  /* text-align: center; */
+  min-height: 100vh;
 }
 
-.App-header {
+.img{
+  width: 70px;
+  height: 55px;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+}
+
+input.form-control, textarea.form-control{
+  border: 0;
+  border-radius: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+input.form-control:focus, textarea.form-control:focus{
+  box-shadow: none;
+  outline: none;
+  border-bottom: 2px solid #ddd;
+}
+
+.sect{
+  min-height: 200px;
+  background-color: #ddd;
+}
+
+.card{
+  width: 18rem;
+}
+
+Link:active, Link:hover{
+  font-weight: bolder;
+  color: black;
+}
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +69,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
+/* .container {
+  width: 500px;
+  height: 200px;
+} */
