@@ -6,10 +6,10 @@ import ReactDOM from 'react-dom';
 function Header() {
     return ( 
         <div className="containerFluid">
-        <nav className="navbar navbar-expand-lg navbar-light bg-transparent navbar-fixed">
+        <nav className="navbar navbar-expand-lg navbar-dark navbar-fixed">
         <div className="container">
             <Link className="navbar-brand" to="/">
-               <h1 style={{color: '36454F'}}>SKILL4PROFIT</h1>
+               <h2>Skill4profit</h2>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@ function Header() {
             <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/home">Home</Link>
+                <Link className="nav-link" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
                 <Link className="nav-link" to="/about">About Us</Link>
@@ -34,11 +34,8 @@ function Header() {
                 <li className="nav-item">
                 <Link className="nav-link " to="/contact" >Contact Us</Link>
                 </li>
-                {/* <li className="nav-item">
-                <Link className="nav-link " to="/" >Login</Link>
-                </li> */}
-                <li className="nav-item">
-                <Link className="nav-link bg-secondary" to="/donate" >Donate</Link>
+                <li className="nav-item btn ms-2">
+                <Link className="nav-link p-1 mx-auto" to="/donate" >Donate</Link>
                 </li>
             </ul>
             </div>

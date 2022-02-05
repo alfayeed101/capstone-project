@@ -22,9 +22,9 @@ function App() {
       <Header/>
       <div className="">
        <Routes>
-        <Route path="/" element={<Login/>}/>
+        <Route path="/" element={<Homepage/>}/>
         <Route path="/signup" element={<Signup/>}/>
-        <Route path="/home" element={<Homepage/>}/>
+        <Route path="/login" element={<Login/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/courses" element={<Courses/>}/>
         <Route path="/grants" element={<Grants/>}/>
