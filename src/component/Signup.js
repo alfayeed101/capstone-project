@@ -115,38 +115,35 @@
 
 // export default Registration1;
 
-import image22 from '../img/image22.png';
+import register from '../img/register.png';
 import {Link} from 'react-router-dom';
 function Signup() {
     return ( 
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <img src={image22} alt="decentwork" className='my-5'
-                    style={{maxHeight: '300px'}}/>
+                    <img src={register} alt="decentwork" className='my-5'
+                    style={{maxHeight: '600px'}}/>
                 </div>
                 <div className="col-md-6 my-5">
-                    <h1 title='Signup as a new user!'>Signup</h1>
+                    <h2 className='bg-dark w-25 text-white text-center rounded py-1'>Sign Up</h2>
                     <div className="form ">
                     <div className="form-group my-5 pt-2">
-                            <input type="text" className="form-control" placeholder='Enter Firstname'/>
+                            <input type="text" className="form-control" placeholder='Enter Fullname: John Doe'/>
                         </div>
                         <div className="form-group my-5 pt-2">
-                            <input type="text" className="form-control" placeholder='Enter Lastname'/>
+                            <input type="email" className="form-control" placeholder='Enter email: admin@example.com'/>
                         </div>
                         <div className="form-group my-5 pt-2">
-                            <input type="text" className="form-control" placeholder='Enter Username'/>
+                            <input type="password" className="form-control" placeholder='Enter password: Password1234'/>
                         </div>
                         <div className="form-group my-5 pt-2">
-                            <input type="email" className="form-control" placeholder='admin@example.com'/>
-                        </div>
-                        <div className="form-group my-5 pt-2">
-                            <input type="password" className="form-control" placeholder='Password1234'/>
+                            <input type="password" className="form-control" placeholder='Confirm password: Password1234'/>
                         </div>
                         <div className="form-group my-5 text-center">
-                            <button className="btn btn-secondary">Login</button>
+                            <button className="btn text-white w-50">Register</button>
                             <p className='pt-1'>Already have an account?
-                            <Link to={'/'}>Login</Link>
+                            <Link to={'/login' } style={{color: "#680721"}}> Login</Link>
                             </p>
                         </div>
                     </div>

@@ -35,15 +35,16 @@ Link.nav-link{
 }
 
 input.form-control, textarea.form-control{
-  border: 0;
-  border-radius: 5px;
+  /* border: 0;
+  border-radius: 5px; */
+  color: #F3EEEE;
   border-bottom: 1px solid #ddd;
 }
 
 input.form-control:focus, textarea.form-control:focus{
   box-shadow: none;
   outline: none;
-  border-bottom: 2px solid #ddd;
+  /* border-bottom: 2px solid #ddd; */
 }
 
 .sect{

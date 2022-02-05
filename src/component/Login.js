@@ -54,7 +54,7 @@
 // }
 
 // export default Login;
-import image22 from '../img/image22.png';
+import login from '../img/login.png';
 import {Link, useNavigate} from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 function Login() {
@@ -74,11 +74,11 @@ function Login() {
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <img src={image22} alt="decentwork" className='my-5'
-                    style={{maxHeight: '300px'}}/>
+                    <img src={login} alt="login" className='m-5 w-75'
+                    style={{maxHeight: '700px'}}/>
                 </div>
                 <div className="col-md-6 my-5">
-                    <h1 title='Login your details!'>Login</h1>
+                    <h2 className='bg-dark w-25 text-white text-center rounded py-1'>Log in</h2>
                     <div className="form ">
                         <div className="form-group my-5 pt-2">
                             <input type="email" className="form-control" placeholder='admin@example.com'
@@ -88,10 +88,17 @@ function Login() {
                             <input type="password" className="form-control" placeholder='Password1234'
                             {...register('password', {required: true})}/>
                         </div>
+                        <div class="form-check ">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"/>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Keep me logged in
+                        </label>
+                        <Link to="/" style={{color: "#680721"}} className="ms-5">Forgot password?</Link>
+                        </div>
                         <div className="form-group my-5 text-center">
-                            <button className="btn btn-secondary">Login</button>
-                            <p className='pt-1'>Don't have an account yet?
-                        <Link to={'/signup'}> click here to register</Link></p>
+                            <button className="btn text-white w-50">Login</button>
+                            <p className='pt-1'>Don't have an account yet? <br/>
+                        <Link to={'/signup'} style={{color: "#680721"}}> Sign up</Link></p>
                         </div>
                         
                     </div>
