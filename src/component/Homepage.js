@@ -9,6 +9,7 @@ import rect1  from '../img/rect1.png';
 import rect2 from '../img/rect2.png';
 import rect3 from '../img/rect3.png';
 import rect4 from '../img/rect4.png';
+import rect11 from '../img/rect11.png';
 import image30 from '../img/image30.png';
 import { Link } from 'react-router-dom';
 import Footer from './constant/Footer';
@@ -45,15 +46,13 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="container">
-            <div className="row mt-5 justify-content-center">
-                <div className="col-md-2"><img src={imagee} alt="tech4dev" className='img'/></div>
-                <div className="col-md-2"><img src={tech4dev1} alt="tech4dev" className='img'/></div>
-                <div className="col-md-2"><img src={sterling} alt="tech4dev" className='img'/></div>
-                <div className="col-md-2"><img src={microsoft} alt="microsoft"  className='img'/></div>
-                <div className="col-md-2"><img src={venture} alt="venture" className='img'/></div>
-                <div className="col-md-2"><img src={sdg8} alt="sdg8" className='img'/></div>
-            </div>
+            <div className="container my-5">
+            <div className="row justify-content-center">
+                <div className="col-md-3"><img src={imagee} alt="tech4dev" className='img'/></div>
+                <div className="col-md-3"><img src={tech4dev1} alt="tech4dev" className='img'/></div>
+                <div className="col-md-3"><img src={sterling} alt="tech4dev" className='img'/></div>
+                <div className="col-md-3"><img src={microsoft} alt="microsoft"  className='img'/></div>
+               </div>
             </div>
             <div className="about mt-4 text-white">
              <div className="row">
@@ -105,7 +104,8 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-           <div className="about my-4 container">
+           <div className="about my-4 p-5 mt-5 text-white" style={{backgroundImage: `url(${rect11})`,
+            backgroundColor: "#EA9BBD"}}>
              <div className="row">
                  <div className="col-md-6 ">
                  <div className="form">
@@ -117,19 +117,19 @@ function Homepage() {
                             <input type="email" className="form-control" placeholder='admin@example.com'
                            />
                         </div>
-                        <div className="form-group my-3 pt-2">
+                        <div className="form-group my-3 pt-4">
                             <input type="password" className="form-control" placeholder='Password1234'
                             />
                         </div>
-                        <div className="form-group my-3 pt-2">
+                        <div className="form-group my-3 pt-4">
                             <input type="tel" className="form-control" placeholder='0801000000'
                             />
                         </div>
-                        <div className="form-group my-3 pt-2">
+                        <div className="form-group my-3 pt-4">
                             <textarea  className="form-control" placeholder='Kindly drop an enquiry message'></textarea>
                         </div>
-                        <div className="form-group my-3 text-center">
-                          <button className="btn">Submit</button>
+                        <div className="form-group my-3 text-center pt-4">
+                          {/* <button className="btn w-50 text-white">Submit</button> */}
                         </div>
                     </div>
                  </div>
@@ -137,7 +137,7 @@ function Homepage() {
                  <h4 className='pb-2'>Contact Us</h4>
                  <h2 className=''>Hope For Humanity</h2>
                     <p>Social media</p>
-                    <span style={{color: "black"}}>
+                    <span style={{color: "white"}}>
                     <Link to="/instagram.com"></Link>
                     <i className="fab fa-twitter px-3"></i>
                     <i className="fab fa-facebook px-3"></i>
@@ -145,14 +145,25 @@ function Homepage() {
                     <i className="fab fa-whatsapp px-3"></i>
                     </span>
                  </div>
+                 
              </div>
             </div>
             <div className="about mt-4 container">
              <div className="row">
-             <h2 className='text-center'>Success Stories</h2>
-                 
+             <h2 className='text-center' style={{color: '#175977'}}>Customer Stories</h2>
+                 <p className='text-center'>What our customers have to say</p>
              </div>
              </div>
+             <div className="container my-5">
+            <div className="row justify-content-center">
+                <div className="col-md-2"><img src={imagee} alt="tech4dev" className='img'/></div>
+                <div className="col-md-2"><img src={tech4dev1} alt="tech4dev" className='img'/></div>
+                <div className="col-md-2"><img src={sterling} alt="tech4dev" className='img'/></div>
+                <div className="col-md-2"><img src={microsoft} alt="microsoft"  className='img'/></div>
+                <div className="col-md-2"><img src={venture} alt="venture" className='img'/></div>
+                <div className="col-md-2"><img src={sdg8} alt="sdg8" className='img'/></div>
+            </div>
+            </div>
           </div>
           <Footer/>
         </div>

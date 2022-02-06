@@ -7286,10 +7286,10 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.10.tgz"
   "version" "6.0.10"
 
-"react-hook-form@^7.25.3":
-  "integrity" "sha512-jL4SByMaC8U3Vhu9s7CwgJBP4M6I3Kpwxib9LrCwWSRPnXDrNQL4uihSTqLLoDICqSUhwwvian9uVYfv+ITtGg=="
-  "resolved" "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.25.3.tgz"
-  "version" "7.25.3"
+"react-hook-form@^7.26.0":
+  "integrity" "sha512-nSkCyJB5Ey5QUw3AGQp22JP7TNfPdyC4wqfmheH87NNsHhQwCZgGjexXdBfd7SRt4SHoVzbdPvu6kXG5sSs66Q=="
+  "resolved" "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.26.0.tgz"
+  "version" "7.26.0"
 
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
