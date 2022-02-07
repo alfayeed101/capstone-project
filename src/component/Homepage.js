@@ -105,7 +105,7 @@ function Homepage() {
                 </div>
             </div>
            <div className="about my-4 p-5 mt-5 text-white" style={{backgroundImage: `url(${rect11})`,
-            backgroundColor: "#EA9BBD"}}>
+               backgroundColor: "#EA9BBD"}}>
              <div className="row">
                  <div className="col-md-6 ">
                  <div className="form">

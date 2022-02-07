@@ -95,22 +95,22 @@ function About() {
              <div className="col-md-4 card m-3 mx-auto">
                         <img src={imagejon} alt='image' className='p-2'/>
                         <div className="card-body">
-                        <h5 class="card-title fw-bold">John Doe</h5>
-                        <p class="card-text">Front End Engineer</p>
+                        <h5 className="card-title fw-bold">John Doe</h5>
+                        <p className="card-text">Front End Engineer</p>
                         </div>
               </div>
               <div className="col-md-4 card m-3">
                         <img src={image} alt='image' className='p-2'/>
                         <div className="card-body">
-                        <h5 class="card-title fw-bold">Jane Doe</h5>
-                        <p class="card-text">Back End Engineer</p>
+                        <h5 className="card-title fw-bold">Jane Doe</h5>
+                        <p className="card-text">Back End Engineer</p>
                         </div>
               </div>
               <div className="col-md-4 card m-3">
                         <img src={imagejon} alt='image' className='p-2'/>
                         <div className="card-body">
-                        <h5 class="card-title fw-bold">John Doe</h5>
-                        <p class="card-text">UI/UX Designer</p>
+                         <h5 className="card-title fw-bold">John Doe</h5>
+                         <p className="card-text">UI/UX Designer</p>
                         </div>
               </div>
              </div>

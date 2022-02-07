@@ -63,6 +63,91 @@ input.form-control:focus, textarea.form-control:focus{
 .about{
   background-color: #fff;
 }
+
+/*.connect{
+  background-color: #fff;
+  margin-top: 0px;
+  padding-top: 0px;
+}*/
+
+.connect{
+  position: auto !important;
+  width: 1442px !important;
+  height: 636px !important;
+  left: 0px !important;
+  top: 70px !important;
+  margin-left: -2% !important;
+  border-radius: 0% !important;
+}
+
+.join{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+
+  color: #680721;
+
+}
+.minds{
+
+  
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: center;
+
+  color: #000000;
+
+}
+
+.media{
+  align-items: center;
+  text-align: center;
+}
+
+.magine{
+  margin: 40px;
+}
+
+#linkin{
+  width: 108px;
+  height: 69px;
+}
+
+#tele{
+  width: 72px;
+  height: 72px;
+
+}
+
+#insta{
+  width: 62px;
+  height: 62px;
+ 
+}
+
+#face{
+  width: 62px;
+  height: 62px;
+}
+
+.separate{
+  width: 2500px;
+  height: 8px;
+  left: -60px;
+  top: 1021px;
+  color: #FFFEFE;
+  
+  background: rgba(177, 102, 104, 0.1);
+
+}
 /* Link:active, Link:hover{
   font-weight: bolder;
   color: black;
