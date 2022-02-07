@@ -10,15 +10,15 @@ function Footer() {
     <div className="container-fluid footer fixed text-white">
         <div className="footer container px-3 py-4">
             <div className="row">
-                <div className="col-md-3"></div>
-                <div className="col-md-3 ps-1">
+                {/* <div className="col-md-3"></div> */}
+                <div className="col-md-4 ps-1">
                     <h3 className='fw-bold'>SkillForAll</h3>
                     <p>Vocational skill acquisition is aimed at 
                         reducing the rate of unemployment, education and skill acquisition 
                         across all category.
                     </p>
                 </div>
-                <div className="col-md-3 ps-1">
+                <div className="col-md-4 ps-1">
                 <h3 className='fw-bold'>Get in Touch</h3>
                 <p>alma.lawson@example.com</p>
                 <p>4517 Washington Ave. <br/> Manchester, Kentucky 39495</p>
@@ -33,18 +33,19 @@ function Footer() {
                     <img src={micro} alt="microsoft"  className='img'/>
                 </div>
                 </div> */}
-                <div className="col-md-3">
+                <div className="col-md-4">
                 <h3 className='fw-bold'>Subscribe to our Newsletter</h3>
                 <form className="d-flex">
                 <input className="form-control" type="search" placeholder="Email" aria-label="Search"/>
                 <button className="btn text-white" type="submit">Submit</button>
                  </form>
-                 <div className="logo py-3">
+                 <div className="logo1 py-3">
                  <span>
-                    <i className="fab fa-twitter px-3"></i>
-                    <i className="fab fa-facebook px-3"></i>
-                    <i className="fab fa-instagram px-3"></i>
-                    <i className="fab fa-whatsapp px-3"></i>
+                 <i className="fab fa-linkedin ps-1"></i>
+                    <i className="fab fa-twitter ps-3"></i>
+                    <i className="fab fa-facebook ps-3"></i>
+                    <i className="fab fa-instagram ps-3"></i>
+                    <i className="fab fa-whatsapp ps-3"></i>
                     </span>
                  </div>
                 </div>

@@ -4,6 +4,7 @@ import venture from '../img/venture.png';
 import imagee from '../img/imagee.png';
 import sterling from '../img/sterling.png';
 import sdg8 from '../img/sdg8.png';
+import wwd from '../img/wwd.png';
 import rect from '../img/rect.png';
 import rect1  from '../img/rect1.png';
 import rect2 from '../img/rect2.png';
@@ -11,6 +12,7 @@ import rect3 from '../img/rect3.png';
 import rect4 from '../img/rect4.png';
 import rect11 from '../img/rect11.png';
 import image30 from '../img/image30.png';
+import image82 from '../img/image82.png';
 import { Link } from 'react-router-dom';
 import Footer from './constant/Footer';
 
@@ -48,32 +50,39 @@ function Homepage() {
             </div>
             <div className="container my-5">
             <div className="row justify-content-center">
-                <div className="col-md-3"><img src={imagee} alt="tech4dev" className='img'/></div>
+                {/* <h3 className='text-center p-3'>What We Do</h3> */}
+                <img src={wwd} alt="" style={{width: '800px'}}/>
+                {/* <div className="col-md-3"><img src={imagee} alt="tech4dev" className='img'/></div>
                 <div className="col-md-3"><img src={tech4dev1} alt="tech4dev" className='img'/></div>
                 <div className="col-md-3"><img src={sterling} alt="tech4dev" className='img'/></div>
-                <div className="col-md-3"><img src={microsoft} alt="microsoft"  className='img'/></div>
+                <div className="col-md-3"><img src={microsoft} alt="microsoft"  className='img'/></div> */}
                </div>
             </div>
-            <div className="about mt-4 text-white">
+            <div className="about mt-4 text-white container">
              <div className="row">
-                 <div className="col-md-4 sect my-5 p-5">
-                 <h2 className='text-center'>Our Mission</h2>
-                 <p className=''>Creating wealth through information technology and vocational development </p>
+                 <div className="col-md-6">
+                     <img src={image82} alt="image" style={{width: "500px", height: "370px"}}/>
                  </div>
-                 <div className="col-md-4 my-5 p-5 sect">
-                 <h2 className='text-center'>Our Vision</h2>
-                 <p>To reduce the rtae of poverty and illiteracy in nigeria before next decade</p>
+                 <div className="col-md-6">
+                <div>
+                 <h2 className='' style={{color: "#A21942"}}>Our Mission</h2>
+                 <p className='text-dark'>Creating wealth through information<br/> technology and vocational<br/> development </p>
                  </div>
-                 <div className="col-md-4 my-5 p-5 sect">
-                 <h2 className='text-center'>Our Values</h2>
-                 <p>Team work, Community growth, Technical growth, Leadership and Visibility</p>
+                 <div className="">
+                 <h2 className='' style={{color: "#A21942"}}>Our Vision</h2>
+                 <p className='text-dark'>To reduce the rtae of poverty and<br/> illiteracy in nigeria before next<br/> decade</p>
+                 </div>
+                 <div>
+                 <h2 className='' style={{color: "#A21942"}}>Our Values</h2>
+                 <p className='text-dark'>Team work, Community growth, Technical <br/>growth, Leadership and Visibility</p> 
+                 </div>
                  </div>
              </div>
              </div>
-            <div className="feature mt-4">
+            <div className="feature mt-5">
                 <h2 className='text-center'>Features</h2>
                 <div className="row justify-content-center align-items-stretch">
-                    <div className="col-md-4 card m-3 align-items-">
+                    <div className="col-md-4 card m-3">
                         <img src={rect} alt='image' className='card-img-top'/>
                         <div className="card-body">
                         <h5 class="card-title fw-bold">E-learning for tech and vocational skills  </h5>
