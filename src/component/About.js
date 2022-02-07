@@ -1,7 +1,27 @@
+
+/*import imagee from '../img/imagee.png';
+import image30 '../img/image30.png';
+import maicom from '../img/maicom.png';
+import Footer from './constant/Footer';*/
 import {Link} from 'react-router-dom';
-import image from '../img/image.jpg';
-import imagejon from '../img/imagejon.jpg';
-import image30 from '../img/image30.png';
+import adeolu from '../img/adeolu.png';
+import adijat from '../img/adijat.png';
+import adaku from '../img/adaku.png';
+import kene from '../img/kene.png';
+import usen from '../img/usen.png';
+import oluchi from '../img/oluchi.png';
+import malcom from '../img/malcom.png';
+import abayomi from '../img/abayomi.png';
+import reg2 from '../img/reg2.png';
+import rect4 from '../img/rect4.png';
+import rect7 from '../img/rect7.png';
+import rect8 from '../img/rect8.png';
+import rect9 from '../img/rect9.png';
+import rect12 from '../img/rect12.png';
+import rect13 from '../img/rect13.png';
+import rect14 from '../img/rect14.png';
+import rect15 from '../img/rect15.png';
+import rect16 from '../img/rect16.png';
 import Footer from './constant/Footer';
 
 function About() {
