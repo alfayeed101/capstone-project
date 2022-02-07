@@ -1,8 +1,10 @@
-import login from '../img/login.png';
+import reg from '../img/reg.png';
+import logo from '../img/logo.png';
 import {Link, useNavigate} from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
-import Footer from  './constant/Footer';
+import '../App.css';
+// import Footer from  './constant/Footer';
 function Login() {
     const {register, handleSubmit, formState: {errors}} = useForm();
     const [error, setError] = useState('');
@@ -21,13 +23,16 @@ function Login() {
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <img src={login} alt="login" className='m-5 w-75'
-                    style={{maxHeight: '700px'}}/>
+                <h2 className='rounded py-2'>The opportunity to make a<br/> huge difference.</h2>
+                <p>Skill4profit is a non-profit social enterprise that creates access to job <br/>creation, talent discovery, skills acquisition and mentoring / tutoring.</p>
+                    {/* <img src={reg} alt="login" className=''
+                    style={{maxHeight: '400px'}}/> */}
                 </div>
-                <div className="col-md-6 my-5">
-                    <h2 className='bg-dark w-25 text-white text-center rounded py-1'>Log in</h2>
-                    <form className="form" onSubmit={handleSubmit(onSubmit)}>
-                        <div className="form-group my-5 pt-2">
+                <div className="col-md-6 my-5 py-5">
+                <img src={logo} alt="logo" className='logo d-flex mx-auto'/>
+                     <form className="form" onSubmit={handleSubmit(onSubmit)}>
+                         <h2>Log In</h2>
+                        <div className="form-group my-5 pt-1">
                             <input type="email" className="form-control text-dark" placeholder='admin@example.com'
                             {...register('email', {required: true})}/>
                             {errors.email && <p className='text-danger'>Email is required</p>}
@@ -45,7 +50,7 @@ function Login() {
                         <Link to="/" style={{color: "#680721"}} className="ms-5">Forgot password?</Link>
                         </div>
                         <div className="form-group my-2 text-center">
-                            <button className="btn text-white w-50">Login</button>
+                            <button className="btn text-white w-25">Login</button>
                             <p className='pt-1'>Don't have an account yet? <br/>
                         <Link to={'/signup'} style={{color: "#680721"}}> Sign up</Link></p>
                         </div>
@@ -54,7 +59,7 @@ function Login() {
                 </div>
             </div>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
         </div>
      );
 }

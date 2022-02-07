@@ -14,6 +14,7 @@ import './App.css';
 import Connects from './component/Connects';
 import Contact from './component/Contact';
 import Donate from './component/Donate';
+import Job from './component/Job';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/connects" element={<Connects/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/donate" element={<Donate/>}/>
+        <Route path="/job" element={<Job/>}/>
         {/* <Route path="/home" element={<PrivateRoute><Homepage/></PrivateRoute>}/> */}
       </Routes>
       </div>
